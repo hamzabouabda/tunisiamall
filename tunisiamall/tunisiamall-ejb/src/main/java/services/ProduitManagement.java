@@ -36,7 +36,7 @@ public class ProduitManagement implements ProduitManagementRemote, ProduitManage
 			
 			return true;
 		}catch(Exception e){
-			System.err.println("Problem adding client ...");
+			System.err.println("Problem during adding client ...");
 		}
 		return false;
 
